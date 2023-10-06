@@ -1,0 +1,50 @@
+/**
+ * @name Lover for Red - Black
+ * @version 0.1
+ * @description Glory to Mankind. || 
+ * Thanks to JulioDRai for letting me use their cursors! 
+ * ~https://www.deviantart.com/juliodrai || 
+ * Thanks to GOmonkeymanGO for letting me use some of their code 
+ * ~https://github.com/ChaseIngebritson/YoRHa-Discord-Theme || 
+ * @website https://github.com/AccraZed/YoRHA-UI-BetterDiscord
+ * @author Kaya
+ * @invite X4nBPCa
+ * @patreon https://www.patreon.com/accrazed
+ * @authorId 153562159161278473
+ */
+/*
+  W   W  U   U  QQQQ   QQQQ  EEEEE  RRRR   SSS
+  W   W  U   U  Q   Q  Q   Q  E      R   R  S
+  W W W  U   U  Q   Q  Q   Q  EEE    RRRR    SSS
+  W W W  U   U  Q   Q  Q   Q  E      R  R       S
+  W W    UUU    QQQQ   QQQQ  EEEEE  R   R  SSS
+ 
+ */
+
+@import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/font/stylesheet.css');
+/* Font */
+@import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/NieR-Cursor.css');
+/* Cursor */
+@import url('NieR-Import.theme.css');
+/* Main File */
+@import url('LightImport.theme.css');
+/* Light Part of Theme */
+
+/* GLOBAL VARIABLES */
+:root {
+	--color-high: #edf2f4;
+	/* Önceki: rgb(218, 212, 187); */
+	--color-low: #2B2D42;
+	/* Önceki: rgb(87, 84, 74); */
+	--color-mid: #8d99ae;
+	/* Önceki: rgb(151, 147, 129); */
+	--color-alert: #ef233c;
+	/* Önceki: rgb(205, 102, 77); */
+	--color-high-trans: rgba(237, 242, 244, 0.8);
+	/* Önceki: rgba(218, 212, 187, 0.8); */
+	--color-low-trans: rgba(43, 45, 66, 0.6);
+	/* Önceki: rgba(87, 84, 74, 0.6); */
+	--color-alert-trans: rgba(239, 35, 60, 0.7);
+	/* Önceki: rgba(205, 102, 77, 0.7); */
+	--nier-font: sce-ps3_rodin_latinregular;
+}
