@@ -1,0 +1,10 @@
+@import url(https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css);
+@import url(https://discordstyles.github.io/Addons/bottomhsl.css);
+.folderIconWrapper-1oRIZr {
+  transform: rotate(-90deg);
+}
+
+.closedFolderIconWrapper-3tRb2d .icon-1zKOXL,
+.expandedFolderIconWrapper-3RwQpD svg {
+  transform: rotate(90deg);
+}
