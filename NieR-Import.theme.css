@@ -26,7 +26,6 @@
 .theme-dark,
 .theme-light,
 :root {
-  --color-alert-kaya: #333;
   --font-primary: var(--nier-font), "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   --font-display: var(--nier-font), "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   --header-primary: var(--color-low);
@@ -44,7 +43,7 @@
   --interactive-active: var(--color-low);
   --interactive-muted: var(--color-low-trans);
   --mention-foreground: var(--color-alert);
-  --mention-background: var(--color-alert-kaya);
+  --mention-background: var(--color-alert-trans);
   --background-primary: var(--color-high);
   --background-secondary: var(--color-high);
   --background-secondary-alt: var(--color-high);
@@ -62,13 +61,13 @@
   --background-modifier-accent: var(--color-mid);
   --info-positive-background: var(--color-mid);
   --info-positive-text: var(--color-low);
-  --info-warning-background: var(--color-alert-kaya);
+  --info-warning-background: var(--color-alert-trans);
   --info-warning-foreground: var(--color-alert);
   --info-warning-text: var(--color-alert);
-  --info-danger-background: var(--color-alert-kaya);
+  --info-danger-background: var(--color-alert-trans);
   --info-danger-foreground: var(--color-alert);
   --info-danger-text: var(--color-alert);
-  --info-help-background: var(--color-alert-kaya);
+  --info-help-background: var(--color-alert-trans);
   --info-help-foreground: var(--blue-345);
   --status-positive-background: var(--color-alert);
   --status-positive-text: var(--color-high);
@@ -107,13 +106,13 @@
   --focus-primary: var(--blue-345);
   --control-brand-foreground: var(--color-alert);
   --control-brand-foreground-new: var(--color-alert);
-  --background-mentioned: var(--color-alert-kaya);
-  --background-mentioned-hover: var(--color-alert-kaya);
+  --background-mentioned: var(--color-alert-trans);
+  --background-mentioned-hover: var(--color-alert-trans);
   --background-message-hover: rgba(0, 0, 0, 0.1);
-  --background-message-automod: var(--color-alert-kaya);
-  --background-message-automod-hover: var(--color-alert-kaya);
-  --background-message-highlight: var(--color-alert-kaya);
-  --background-message-highlight-hover: var(--color-alert-kaya);
+  --background-message-automod: var(--color-alert-trans);
+  --background-message-automod-hover: var(--color-alert-trans);
+  --background-message-highlight: var(--color-alert-trans);
+  --background-message-highlight-hover: var(--color-alert-trans);
   --channels-default: var(--color-low);
   --activity-card-background: var(--color-high-trans);
   --textbox-markdown-syntax: var(--color-low);
@@ -1234,7 +1233,7 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
 }
 
 .theme-dark .wrapper-1ZcZW- {
-  background: var(--color-alert-kaya);
+  background: var(--color-alert-trans);
   color: var(--color-high);
 }
 
@@ -1245,7 +1244,7 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
 
 .mouse-mode.full-motion .replying-eZ7p5z,
 .mouse-mode.full-motion .replying-eZ7p5z:hover {
-  background-color: var(--color-alert-kaya);
+  background-color: var(--color-alert-trans);
 }
 
 .mouse-mode.full-motion .replying-eZ7p5z:before {
@@ -1254,7 +1253,7 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
 
 .backgroundFlash-1X5jVs {
   transition: background-color 0.1s;
-  background-color: var(--color-alert-kaya) !important;
+  background-color: var(--color-alert-trans) !important;
 }
 
 [style="background-color: rgba(114, 137, 218, 0);"] {
@@ -3717,7 +3716,7 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status-3cqfT9 {
 }
 
 .theme-dark .closeButton-PCZcma:hover {
-  background-color: var(--color-alert-kaya);
+  background-color: var(--color-alert-trans);
 }
 
 .theme-dark .closeButton-PCZcma path {
