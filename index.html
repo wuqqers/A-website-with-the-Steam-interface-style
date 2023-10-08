@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolyo</title>
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom " id="sticky-navbar">
+
+
+
+    <a class="navbar-brand" href="#"><img class="logo" src="./logo.png" alt="" srcset=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link nav-link-active" href="index.html">Ana Sayfa</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolyo</a></li>
+        <li class="nav-item"><a class="nav-link" href="hakkımda.html">Hakkımda</a></li>
+
+      </ul>
+    </div>
+  </nav>
+
+</header>
+
+<body>
+
+
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12 text-center d-flex flex-column align-items-center justify-content-center">
+        <img src="foto.jpg" class="img-fluid" alt="Profil Fotoğrafı" width="200" style="border-radius: 10px;">
+        <div class="mt-4">
+          <h1>Ömer Kaya Ekici</h1>
+          <p>Web Designer & Web Developer</p>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="row mt-5 mb-5 d-flex flex-row-reverse">
+      <div class="col-12  d-flex justify-content-center align-items-center flex-column">
+        <div class="resume">
+          <div class="section">
+            <div class="section-title">Eğitim Süreci</div>
+            <ul>
+              <li class="job-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span class="education-title">İlkğretim & Ortağretim</span>
+                <ul>
+                  <li class="job-duration">Setbaşı İlkğretim & Ortağretim Okulu </li>
+                  <li>Eylül 2006 - Haziran 2014</li>
+                </ul>
+              </li>
+              <li class="job-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span class="education-title">Anadolu Lisesi</span>
+                <ul>
+                  <li class="job-duration">Yıldırım Beyazıt Anadolu Lisesi </li>
+                  <li>Eylül 2014 - Haziran 2018</li>
+                </ul>
+              </li>
+              <li class="job-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span class="education-title">Meslek Yüksek Okulu </span>
+                <ul>
+                  <li class="job-duration">Uludağ Üniversitesi Ali Osman Sönmez Meslek Yüksek Okulu</li>
+                  <li>Büro Yönetimi Ve Yönetici Asistanlığı</li>
+                  <li>Eylül 2019 - Haziran 2024 [Tahmini Bitiş]</li>
+                </ul>
+              </li>
+              <li class="job-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span class="education-title">Uzaktan Eğitim
+                </span>
+                <ul>
+                  <li class="job-duration">Eskişehir Anadolu Üniversitesi Açık Öğretim Fakültesi</li>
+                  <li>Web Tasarım ve Kodlama</li>
+                  <li>Eylül 2019 - Haziran 2021</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-12  d-flex justify-content-center align-items-center flex-column">
+        <div class="resume">
+          <div class="section">
+            <div class="section-title">İş Geçmişi</div>
+            <ul>
+              <li class="job-item">
+                <i class="fa-solid fa-briefcase"></i>
+                <span class="job-title">Webmaster</span>
+                <ul>
+                  <li class="job-duration">Avane Cloud Kitchens</li>
+                  <li>Haziran 2022 - Ocak 2023</li>
+                </ul>
+              </li>
+              <li class="job-item">
+                <i class="fa-solid fa-briefcase"></i>
+                <span class="job-title">Front End Developer</span>
+                <ul>
+                  <li class="job-duration">Cronwork</li>
+                  <li>Ekim 2023 - Halen Devam Ediyor</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+</body>
+<!-- Bootstrap JS dosyaları (Bootstrap 4.5.2 sürümüne uyumlu jQuery ve Popper.js ile birlikte) -->
+<!-- Tam jQuery versiyonu -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/03efae4d5a.js" crossorigin="anonymous"></script>
+<script>
+  window.addEventListener('scroll', function () {
+    var navbar = document.getElementById('sticky-navbar');
+    if (window.pageYOffset >= 100) { // Adjust the value as needed
+      navbar.classList.add('sticky');
+    } else {
+      navbar.classList.remove('sticky');
+    }
+  });
+</script>
+
+</html>

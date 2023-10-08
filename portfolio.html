@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <title>Steam Kütüphane</title>
+  <style>
+  </style>
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom " id="sticky-navbar">
+
+
+
+    <a class="navbar-brand" href="#"><img class="logo" src="./logo.png" alt="" srcset=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Ana Sayfa</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-active" href="#">Portfolyo</a></li>
+        <li class="nav-item"><a class="nav-link" href="hakkımda.html">Hakkımda</a></li>
+        
+      </ul>
+    </div>
+  </nav>
+
+</header>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-3 col-lg-2 d-md-block bg-dark-custom  sidebar">
+        <div class="position-sticky">
+          <ul class="nav flex-column">
+            <li class="nav-item nav-sidebar-li">
+              <a class="nav-link nav-sidebar-a active" href="#" data-target="all">
+                Hepsi
+              </a>
+            </li>
+            <li class="nav-item nav-sidebar-li">
+              <a class="nav-link nav-sidebar-a" href="#" data-target="web">
+                Web Tasarımlarım
+              </a>
+            </li>
+            <li class="nav-item nav-sidebar-li">
+              <a class="nav-link nav-sidebar-a" href="#" data-target="app">
+                Uygulama Projelerim
+              </a>
+            </li>
+            <li class="nav-item nav-sidebar-li">
+              <a class="nav-link nav-sidebar-a" href="#" data-target="other">
+                Diğer Projelerim
+              </a>
+            </li>
+            <!-- Diğer oyun adları bu şekilde eklenir -->
+          </ul>
+        </div>
+      </nav>
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 mt-5 mb-5 portfolio-main ">
+        <div class="col-12 portfolio-section-big">
+          <div class="row mb-5 WebSlider-container">
+            <div class="col-6">
+              <h5>Web Tasarımlarım</h5>
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-end align-items-end">
+              <div style="position: relative; height: 100%;">
+                <div class="swiper-button-next custom-next-button"></div>
+                <div class="swiper-button-prev custom-prev-button"></div>
+              </div>
+
+            </div>
+            <!-- Swiper -->
+            <div class="swiper WebSlider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide active-slide">
+                  <img src="./foto.jpg" alt="" srcset="">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                      <div class="text">Slide 1</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./foto.jpg" alt="" srcset="">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                      <div class="text">Slide 2</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./foto.jpg" alt="" srcset="">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                      <div class="text">Slide 3</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./foto.jpg" alt="" srcset="">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                      <div class="text">Slide 4</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./foto.jpg" alt="" srcset="">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                      <div class="text">Slide 5</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./foto.jpg" alt="" srcset="">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                      <div class="text">Slide 6</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./foto.jpg" alt="" srcset="">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                      <div class="text">Slide 7</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Diğer slaytlar buraya eklenir -->
+              </div>
+              <!-- Ok tuşlarını ekleyin ve özel sınıflar verin -->
+
+            </div>
+          </div>
+
+          <div class="row mt-5 AppSlider-container">
+            <div class="col-6">
+              <h5>Uygulama Projelerim</h5>
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-end align-items-end">
+              <div style="position: relative; height: 100%;">
+                <div class="swiper-button-next custom-next-button-2"></div>
+                <div class="swiper-button-prev custom-prev-button-2"></div>
+              </div>
+
+            </div>
+            <!-- Swiper -->
+            <div class="swiper AppSlider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide active-slide">
+                  <img src="./foto.jpg" alt="" srcset="">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                      <div class="text">Slide 1</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./foto.jpg" alt="" srcset="">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                      <div class="text">Slide 2</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./foto.jpg" alt="" srcset="">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                      <div class="text">Slide 3</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./foto.jpg" alt="" srcset="">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                      <div class="text">Slide 4</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./foto.jpg" alt="" srcset="">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                      <div class="text">Slide 5</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./foto.jpg" alt="" srcset="">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                      <div class="text">Slide 6</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./foto.jpg" alt="" srcset="">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                      <div class="text">Slide 7</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Diğer slaytlar buraya eklenir -->
+              </div>
+
+            </div>
+          </div>
+          <div class="row mt-5 otherSlider-container">
+            <div class="col-6">
+              <h5>Diğer Projelerim</h5>
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-end align-items-end">
+              <div style="position: relative; height: 100%;">
+                <div class="swiper-button-next custom-next-button-3"></div>
+                <div class="swiper-button-prev custom-prev-button-3"></div>
+              </div>
+
+            </div>
+            <!-- Swiper -->
+            <div class="swiper otherSlider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide active-slide">
+                  <img src="./foto.jpg" alt="" srcset="">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                      <div class="text">Slide 1</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./foto.jpg" alt="" srcset="">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                      <div class="text">Slide 1</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./foto.jpg" alt="" srcset="">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                      <div class="text">Slide 1</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Diğer slaytlar buraya eklenir -->
+              </div>
+              <!-- Ok tuşlarını ekleyin ve özel sınıflar verin -->
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      </main>
+    </div>
+  </div>
+
+</body>
+
+<!-- Bootstrap JS dosyaları (Bootstrap 4.5.2 sürümüne uyumlu jQuery ve Popper.js ile birlikte) -->
+<!-- Tam jQuery versiyonu -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+  // Akordiyon özelliğini etkinleştirme
+  $(document).ready(function () {
+    $('#webDesignsAccordion .accordion-button').click(function () {
+      $('#AppDeveloperList').collapse('hide'); // AppDeveloperList'i gizle
+      toggleIcon('#webDesignsIcon'); // İkona tıklama işareti ekle/çıkar
+    });
+
+    $('#appDeveloperHeading button').click(function () {
+      $('#webDesignsList').collapse('hide'); // Web Tasarımlarım'ı gizle
+      toggleIcon('#appDeveloperIcon'); // İkona artı işareti ekle/çıkar
+    });
+  });
+
+  function toggleIcon(iconId) {
+    $(iconId).toggleClass('fa-plus fa-minus');
+  }
+</script>
+<script>
+  window.addEventListener('scroll', function () {
+    var navbar = document.getElementById('sticky-navbar');
+    if (window.pageYOffset >= 100) { // Adjust the value as needed
+      navbar.classList.add('sticky');
+    } else {
+      navbar.classList.remove('sticky');
+    }
+  });
+</script>
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+  const allLink = document.querySelector('[data-target="all"]');
+  const webLink = document.querySelector('[data-target="web"]');
+  const appLink = document.querySelector('[data-target="app"]');
+  const otherLink = document.querySelector('[data-target="other"]');
+  const webSliders = document.querySelectorAll('.WebSlider-container .swiper-slide');
+  const appSliders = document.querySelectorAll('.AppSlider-container .swiper-slide');
+  const othersSliders = document.querySelectorAll('.otherSlider-container .swiper-slide');
+
+  let currentCategory = 'all';
+  let isAnimating = false;
+
+  function toggleSliders(sliders, show) {
+    isAnimating = true;
+    for (const slider of sliders) {
+      slider.style.display = show ? 'flex' : 'none';
+      if (show) {
+        slider.style.opacity = '0';
+        setTimeout(() => {
+          slider.style.opacity = '1';
+          isAnimating = false;
+        }, 3);
+      }
+    }
+  }
+
+  function showAllSliders() {
+    if (currentCategory !== 'all' && !isAnimating) {
+      toggleSliders(webSliders, true);
+      toggleSliders(appSliders, true);
+      toggleSliders(othersSliders, true);
+      currentCategory = 'all';
+    }
+  }
+
+  function showWeb() {
+    if (currentCategory !== 'web' && !isAnimating) {
+      toggleSliders(webSliders, true);
+      toggleSliders(appSliders, false);
+      toggleSliders(othersSliders, false);
+      currentCategory = 'web';
+    }
+  }
+
+  function showApp() {
+    if (currentCategory !== 'app' && !isAnimating) {
+      toggleSliders(webSliders, false);
+      toggleSliders(appSliders, true);
+      toggleSliders(othersSliders, false);
+      currentCategory = 'app';
+    }
+  }
+
+  function showOthers() {
+    if (currentCategory !== 'others' && !isAnimating) {
+      toggleSliders(webSliders, false);
+      toggleSliders(appSliders, false);
+      toggleSliders(othersSliders, true);
+      currentCategory = 'others';
+    }
+  }
+
+  allLink.addEventListener('click', () => {
+    showAllSliders();
+  });
+
+  webLink.addEventListener('click', () => {
+    showWeb();
+  });
+
+  appLink.addEventListener('click', () => {
+    showApp();
+  });
+
+  otherLink.addEventListener('click', () => {
+    showOthers();
+  });
+
+</script>
+<script src="https://kit.fontawesome.com/03efae4d5a.js" crossorigin="anonymous"></script>
+<script>
+  var WebSlider = new Swiper(".WebSlider", {
+    slidesPerView: "auto",
+    centeredSlides: true,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".custom-next-button",
+      prevEl: ".custom-prev-button",
+    },
+    on: {
+      slideChange: function () {
+        // Tüm slaytlardan '.active-slide' sınıfını kaldır
+        document.querySelectorAll('.WebSlider .swiper-slide').forEach(function (slide) {
+          slide.classList.remove('active-slide');
+        });
+
+        // Aktif slayta '.active-slide' sınıfını ekle
+        var activeSlide = document.querySelectorAll('.WebSlider .swiper-slide')[this.realIndex];
+        activeSlide.classList.add('active-slide');
+
+        // Tüm slaytları stil değişikliklerini güncellemek için tarayın
+        document.querySelectorAll('.WebSlider .swiper-slide').forEach(function (slide) {
+          if (slide.classList.contains('active-slide')) {
+            slide.style.width = '371px';
+            slide.style.height = '265px';
+          } else {
+            slide.style.width = '176px';
+            slide.style.height = '265px';
+          }
+        });
+      },
+    },
+  });
+  var AppSlider = new Swiper(".AppSlider", {
+    slidesPerView: "auto",
+    centeredSlides: true,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".custom-next-button-2",
+      prevEl: ".custom-prev-button-2",
+    },
+    on: {
+      slideChange: function () {
+        // Tüm slaytlardan '.active-slide' sınıfını kaldır
+        document.querySelectorAll('.AppSlider .swiper-slide').forEach(function (slide) {
+          slide.classList.remove('active-slide');
+        });
+
+        // Aktif slayta '.active-slide' sınıfını ekle
+        var activeSlide = document.querySelectorAll('.AppSlider .swiper-slide')[this.realIndex];
+        activeSlide.classList.add('active-slide');
+
+        // Tüm slaytları stil değişikliklerini güncellemek için tarayın
+        document.querySelectorAll('.AppSlider .swiper-slide').forEach(function (slide) {
+          if (slide.classList.contains('active-slide')) {
+            slide.style.width = '371px';
+            slide.style.height = '265px';
+          } else {
+            slide.style.width = '176px';
+            slide.style.height = '265px';
+          }
+        });
+      },
+    },
+  });
+  var otherSlider = new Swiper(".otherSlider", {
+    slidesPerView: "auto",
+    centeredSlides: true,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".custom-next-button-3",
+      prevEl: ".custom-prev-button-3",
+    },
+    on: {
+      slideChange: function () {
+        // Tüm slaytlardan '.active-slide' sınıfını kaldır
+        document.querySelectorAll('.otherSlider .swiper-slide').forEach(function (slide) {
+          slide.classList.remove('active-slide');
+        });
+
+        // Aktif slayta '.active-slide' sınıfını ekle
+        var activeSlide = document.querySelectorAll('.otherSlider .swiper-slide')[this.realIndex];
+        activeSlide.classList.add('active-slide');
+
+        // Tüm slaytları stil değişikliklerini güncellemek için tarayın
+        document.querySelectorAll('.otherSlider .swiper-slide').forEach(function (slide) {
+          if (slide.classList.contains('active-slide')) {
+            slide.style.width = '371px';
+            slide.style.height = '265px';
+          } else {
+            slide.style.width = '176px';
+            slide.style.height = '265px';
+          }
+        });
+      },
+    },
+  });
+</script>
+
+
+
+
+
+<script>
+  // Tüm nav-link elemanlarını seçin
+  const navLinks = document.querySelectorAll('.nav-sidebar-a');
+
+  // Tıklanan nav-link'e aktif sınıfını ekleyen işlev
+  function setActiveLink(event) {
+    // Diğer tüm nav-link'lerden aktif sınıfını kaldırın
+    navLinks.forEach(link => {
+      link.classList.remove('active');
+    });
+    // Tıklanan nav-link'e aktif sınıfını ekleyin
+    event.target.classList.add('active');
+
+    // Önceki aktif nav-link'in stilini değiştirin
+    const previousActiveLink = navLinks.find(link => link.classList.contains('active'));
+    if (previousActiveLink) {
+      previousActiveLink.classList.remove('active');
+    }
+  }
+
+  // Her bir nav-link'e tıklama olayı ekleyin
+  navLinks.forEach(link => {
+    link.addEventListener('click', setActiveLink);
+  });
+
+  // Hover etkisini ekleyin
+  navLinks.forEach(link => {
+    link.addEventListener('mouseenter', function () {
+      // Eğer şu anki nav-link 'active' değilse
+      if (!this.classList.contains('active')) {
+        // Önceki 'active' olan nav-link'in stilini değiştirin
+        const previousActiveLink = navLinks.find(link => link.classList.contains('active'));
+        if (previousActiveLink) {
+          previousActiveLink.style.backgroundColor = '#1b2838';
+        }
+      }
+    });
+
+    link.addEventListener('mouseleave', function () {
+      // Hover etkisi sona erdiğinde, orijinal stilini geri getir
+      const previousActiveLink = navLinks.find(link => link.classList.contains('active'));
+      if (previousActiveLink) {
+        previousActiveLink.style.backgroundColor = '';
+      }
+    });
+  });
+
+</script>
+
+
+</html>
